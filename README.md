@@ -145,3 +145,4 @@ Descarga los archivos CSV y colócalos en `data/raw/`.
 **Carlos Maliqueo Quijano**
 Ingeniero Civil en Informática y Telecomunicaciones
 [LinkedIn](https://www.linkedin.com/in/carlos-maliqueo-quijano-20b3792a9/) | [GitHub](https://github.com/Carlos-Maliqueo/)
+# shopmind-ai
