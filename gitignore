@@ -1,0 +1,19 @@
+# Entorno
+venv/
+.env
+
+# Data (no subir CSVs pesados)
+data/raw/
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ChromaDB
+chroma_db/
+
+# OS
+.DS_Store
