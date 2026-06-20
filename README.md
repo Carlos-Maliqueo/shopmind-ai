@@ -1,10 +1,10 @@
-# 🛒 ShopMind AI — Agente RAG de Recomendación E-commerce
+# ShopMind AI — Agente RAG de Recomendación E-commerce
 
 > Agente de inteligencia artificial que analiza comportamiento de usuarios en e-commerce y responde preguntas en lenguaje natural usando RAG (Retrieval-Augmented Generation) + LLMs.
 
 ---
 
-## 🎯 ¿Qué hace este proyecto?
+## ¿Qué hace este proyecto?
 
 ShopMind AI permite hacer preguntas como:
 
@@ -16,7 +16,7 @@ El agente decide de forma autónoma cuándo buscar en la base vectorial, cuándo
 
 ---
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 Usuario (query en lenguaje natural)
@@ -54,7 +54,7 @@ RAW (CSV Kaggle) → PROCESSED (pandas, limpieza) → VECTORIZADO (ChromaDB) →
 
 ---
 
-## 🧰 Stack Tecnológico
+## Stack Tecnológico
 
 | Capa | Tecnología |
 |------|-----------|
@@ -69,7 +69,7 @@ RAW (CSV Kaggle) → PROCESSED (pandas, limpieza) → VECTORIZADO (ChromaDB) →
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 shopmind-ai/
@@ -92,16 +92,16 @@ shopmind-ai/
 
 ---
 
-## 🚀 Fases del Proyecto
+## Fases del Proyecto
 
-- [x] **Fase 1** — Estructura del proyecto + EDA con pandas
-- [ ] **Fase 2** — RAG Core: embeddings + ChromaDB
-- [ ] **Fase 3** — Agente con tool calling
-- [ ] **Fase 4** — FastAPI + documentación final
+-  **Fase 1** — Estructura del proyecto + EDA con pandas
+-  **Fase 2** — RAG Core: embeddings + ChromaDB
+-  **Fase 3** — Agente con tool calling
+-  **Fase 4** — FastAPI + documentación final
 
 ---
 
-## ⚙️ Instalación
+## Instalación
 
 ```bash
 # Clonar el repositorio
@@ -122,7 +122,7 @@ cp .env.example .env
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 Este proyecto usa el dataset **[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)** de Kaggle.
 
@@ -130,7 +130,7 @@ Descarga los archivos CSV y colócalos en `data/raw/`.
 
 ---
 
-## 🔑 Conceptos Clave
+## Conceptos Clave
 
 **RAG (Retrieval-Augmented Generation):** En lugar de depender solo del conocimiento del LLM, el agente recupera información relevante de una base de datos vectorial antes de responder. Esto permite respuestas basadas en datos reales del e-commerce.
 
@@ -140,7 +140,7 @@ Descarga los archivos CSV y colócalos en `data/raw/`.
 
 ---
 
-## 👤 Autor
+## Autor
 
 **Carlos Maliqueo Quijano**
 Ingeniero Civil en Informática y Telecomunicaciones
